@@ -1,0 +1,59 @@
+@font-face {
+    font-family: zector;
+    src: url(../fonts/zector.otf);
+}
+
+body {
+    font-family: zector;
+    background: linear-gradient(45deg, #c5daff, #ffeafa);
+}
+
+#banner {
+    width: 50%;
+    margin: auto;
+    margin-top: 10%;
+    text-align: center;
+}
+#banner-text-container {
+    font-size: 20em;
+    border: 3px solid;
+    border-image-slice: 1;
+    padding-left: 10%;
+    padding-right: 10%;
+    border-image-source: linear-gradient(45deg, #d1c3fc, #9bc4fc);
+    background-color: rgb(245, 245, 245);
+}
+#banner-text {
+    background: -webkit-linear-gradient(45deg, #d1c3fc, #9bc4fc);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+    -webkit-filter: drop-shadow(0px 1px 0px #888888);
+    filter: drop-shadow(0px 1px 0px #888888);
+}
+#text-container {
+    margin-top: 5%;
+    text-align: center;
+    width: 80%;
+    margin: auto;
+}
+#message {
+    color: #979797;
+    display: inline-block;
+  	overflow: hidden;
+  	letter-spacing: 2px;
+    white-space: nowrap;
+    font-size: 150%;
+    border-right: 1px solid #979797;
+    box-sizing: border-box;
+    animation: blink .80s step-end infinite;
+}
+@keyframes blink {
+    from, to { 
+        border-color: transparent 
+    }
+    50% { 
+        border-color: #b8b8b8; 
+    }
+}
