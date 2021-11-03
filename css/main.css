@@ -57,3 +57,21 @@ body {
         border-color: #b8b8b8; 
     }
 }
+
+/*Mobile*/
+@media only screen and (max-width: 1000px) {
+	#banner {
+		width: 100%;
+		margin-top: 30%;
+	}
+	#banner-text-container {
+	    font-size: 27em;
+	}
+	#message {
+		white-space: pre-wrap;
+		font-size: 200%;
+		border-right: none;
+		animation: none;
+		letter-spacing: 0px;
+	}
+}
